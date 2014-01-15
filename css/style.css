@@ -1349,10 +1349,13 @@ table.default tbody
     bottom: 0;
     padding-bottom: 10em;
     position: absolute;
+<<<<<<< HEAD
 }
 
 .manymore{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+=======
+>>>>>>> Added images of my projects
 }
