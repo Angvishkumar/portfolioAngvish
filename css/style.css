@@ -1350,3 +1350,9 @@ table.default tbody
     padding-bottom: 10em;
     position: absolute;
 }
+
+.manymore{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
