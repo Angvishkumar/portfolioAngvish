@@ -1,4 +1,4 @@
 portfolioAngvish
 ================
 
-I am creating this theme for designing my portfolio
+Template for my portfolio
