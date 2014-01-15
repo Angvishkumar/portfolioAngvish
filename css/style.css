@@ -1337,3 +1337,16 @@ table.default tbody
 .bottomsection{
     padding: 0 2.5em 2.5em;
 }
+.image-height img{
+    height: 280px;
+}
+
+.image-height {
+    overflow: hidden;
+}
+
+.flow-of-work{
+    bottom: 0;
+    padding-bottom: 10em;
+    position: absolute;
+}
