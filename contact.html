@@ -2,14 +2,6 @@
 layout: base
 ---
 
-{% if site.compass.include_content %}
-  {% include nav.html %}
-{% endif %}
-
-{% if site.compass.include_content %}
-  {% include header.html %}
-{% endif %}
-
 <div class="wrapper container">
   <div class="row">
 
@@ -22,7 +14,9 @@ layout: base
         <div class="form-group">
           <textarea class="form-control" name="body" placeholder="Add your description here"></textarea>
         </div>
-        <input class="btn btn-primary btn-block btn-lg" type="submit" value="Submit">
+        <div class="form-group">
+          <input class="btn btn-primary btn-block btn-lg" type="submit" value="Submit">
+        </div>
       </form>
     </section>
   </div>

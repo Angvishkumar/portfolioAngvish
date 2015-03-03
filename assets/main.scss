@@ -11,6 +11,22 @@ body {
   background-color: $background-color;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $anchor-text-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 15px;
+}
+
 .navbar-nav {
   margin: 0 -15px;
 }
@@ -54,12 +70,12 @@ body {
 }
 
 .intro-header .site-heading {
-  padding: 150px 0;
+  padding: 210px 0;
   color: white;
 }
 
 .intro-header h1 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 800;
   word-wrap: break-word;
 }
@@ -72,20 +88,6 @@ body {
   font-weight: 300;
   margin: 10px 0 0;
 }
-
-/*** anchor tags ***/
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: $anchor-text-color;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 
 /*** main content list ***/
 .main-list-item {
@@ -140,19 +142,15 @@ hr.small {
   border-color: white;
 }
 
-/*** footer ***/
-footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  height: 20px;
-}
-
 .poweredby {
   font-family: "Arial Narrow", Arial;
   font-size: 0.6em;
   line-height: 0.6em;
   padding: 0 5px;
+}
+
+footer {
+  padding: 40px 0;
 }
 
 /* All other devices (768px and up) */
