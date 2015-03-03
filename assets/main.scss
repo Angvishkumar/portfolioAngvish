@@ -11,6 +11,35 @@ body {
   background-color: $background-color;
 }
 
+.navbar-nav {
+  margin: 0 -15px;
+}
+
+.navbar-fixed-top {
+  font-weight: bold;
+}
+
+.navbar-custom {
+  background-color: $background-color;
+  border-bottom: 1px solid $anchor-text-color;
+}
+
+.navbar-nav,
+.icon-bar {
+  background-color: $anchor-text-color;
+}
+
+.navbar-nav>li>a {
+  color: $background-color;
+}
+
+.navbar-nav>li>a:hover {
+  color: $anchor-text-color;
+  background-color: $background-color;
+  border-left: 1px solid $anchor-text-color;
+  border-right: 1px solid $anchor-text-color;
+}
+
 .intro-header {
   background-color: #808080;
   background: url('../images/header-bg.jpg') center center;
@@ -24,14 +53,24 @@ body {
   margin-bottom: 50px;
 }
 
-.intro-header h1 {
-  font-size: 80px;
-  font-weight: 800;
-}
-
 .intro-header .site-heading {
   padding: 150px 0;
   color: white;
+}
+
+.intro-header h1 {
+  font-size: 80px;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.intro-header .site-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
 }
 
 /*** anchor tags ***/
