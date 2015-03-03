@@ -47,13 +47,12 @@ ul {
 
 .navbar-nav>li>a {
   color: $background-color;
+  transition: .3s ease-in .1s;
 }
 
 .navbar-nav>li>a:hover {
   color: $anchor-text-color;
   background-color: $background-color;
-  border-left: 1px solid $anchor-text-color;
-  border-right: 1px solid $anchor-text-color;
 }
 
 .intro-header {
@@ -89,11 +88,9 @@ ul {
   margin: 10px 0 0;
 }
 
-/*** main content list ***/
-.main-list-item {
-  font-weight: bold;
-  font-size: 1.2em;
-  margin: 0.8em 0;
+
+.wrapper {
+  padding-top: 50px;
 }
 
 /* override the left margin added by font awesome for the main content list,
@@ -153,14 +150,76 @@ footer {
   padding: 40px 0;
 }
 
-/* All other devices (768px and up) */
-@media (min-width: 768px) {
-  /* past 768px the layout is changed and the wrapper has a fixed width of 680px
-  to accomodate both the header column and the content column */
+// iframe
 
-  main {
-    width: 46%;
-    margin-left: 54%;
-    padding: 0;
-  }
+iframe {
+  height: -webkit-calc(100%);
+  width: -webkit-calc(100%);
+  border: 1px solid lightgray;
+}
+
+.iframe {
+  margin: 0 auto 50px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.iframe:last-child {
+  margin-bottom: 0;
+}
+
+// iframe iphone
+
+.iframe-iphone {
+  max-width: 375px;
+  height: 667px;
+  padding: 60px 15px 140px 15px;
+  background: black;
+}
+
+.iframe-iphone:before {
+  content: "";
+  height: 10px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 37%;
+  background-color: lightgray;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+.iframe-iphone:after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 37%;
+  background-color: black;
+  border: 4px solid lightgray;
+  border-radius: 50%;
+}
+
+// iframe ipad
+
+.iframe-ipad {
+  max-width: 786px;
+  height: 1024px;
+  padding: 30px 15px 140px 15px;
+  background: #eee;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.iframe-ipad:after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 42%;
+  background-color: #ddd;
+  border: 4px solid antiquewhite;
+  border-radius: 50%;
 }

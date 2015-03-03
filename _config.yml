@@ -7,9 +7,9 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/profile_pic.png"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Angvish"
   # tagline will appear under the title (optional)
-  tagline: "My name is <a href='http://angvishvish.github.io'>Angvish kumar</a>, from pune, I am enthuastic about frontend development"
+  tagline: "My name is <a href='http://angvishvish.github.io'>Angvish kumar</a>, from pune, I am enthuastic about frontend development,"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true

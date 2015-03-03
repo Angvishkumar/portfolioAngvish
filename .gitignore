@@ -1,3 +1,10 @@
+# file(s) and folder(s) ignored #
+######################
+
 .sass-cache/
 /nbproject/private/
+<<<<<<< HEAD
 _site/
+=======
+.DS_Store?
+>>>>>>> added project sample page
