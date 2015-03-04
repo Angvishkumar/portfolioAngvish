@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="/assets/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/main.css">
 
-  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-  <!-- <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'> -->
-  <!-- <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://angvishvish.github.io/projects/">
 
   <meta name="author" content="Angvish">
@@ -29,9 +29,9 @@
 </head>
 
   <body>
-
-  
-    <nav class="navbar navbar-custom navbar-fixed-top">
+    <main class="wrapper">
+    
+      <nav class="navbar navbar-custom navbar-fixed-top">
   <div class="container">
 
     <div class="navbar-header page-scroll">
@@ -61,33 +61,49 @@
   </div>
 
 </nav>
-  
+    
 
-  <div class="wrapper container">
-  <!-- <h1>About me</h1> -->
-  <select name="select-project" id="selected-dropdown">
-    <option value="1">one</option>
-    <option value="2">two</option>
-    <option value="3">three</option>
-    <option value="4">four</option>
-  </select>
-  <div class="iframe iframe-iphone">
-    <iframe src="http://localhost:4000/"
-      frameborder="0">
-    </iframe>
+    <div class="container">
+  <div class="row">
+
+    <div class="col-md-4 col-md-offset-4">
+      <form class="row" action="#">
+        <legend>Select from the list</legend>
+        <div class="form-group">
+          <select class="form-control"
+            id="selected-dropdown"
+            onchange="myFunction()">
+            <option>-- choose an item --</option>
+            <option value="http://www.safetychanger.com/">Safety Changer</option>
+            <option value="http://www.lipstickandruffles.com/">Lipstick and ruffles</option>
+            <option value="http://www.elitefloorings.com/">Elite flooring</option>
+            <option value="http://hauteliving.com/">Haute living</option>
+            <option value="/">My Portfolio</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-12">
+    <div class="iframe iframe-iphone">
+      <iframe src="http://localhost:4000/"
+        frameborder="0">
+      </iframe>
+    </div>
+
+    <div class="col-md-12">
+      <div class="iframe iframe-ipad">
+        <iframe src="http://localhost:4000/"
+          frameborder="0">
+        </iframe>
+      </div>
+    </div>
   </div>
-
-  <div class="iframe iframe-ipad">
-    <iframe src="http://localhost:4000/"
-      frameborder="0">
-    </iframe>
-  </div>
-
 </div>
 
 
-  
-    <footer>
+    
+      <footer>
   <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -131,9 +147,10 @@
   </div>
 </footer>
 
-  
+    
+    </main>
   <script type="text/javascript" src="/assets/portfolio.js"></script>
-  <!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
-  <!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
 </html>
