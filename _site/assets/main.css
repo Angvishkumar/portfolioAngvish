@@ -136,7 +136,7 @@ iframe {
 .iframe-iphone {
   max-width: 375px;
   height: 667px;
-  padding: 60px 15px 140px 15px;
+  padding: 60px 15px 100px 15px;
   background: black; }
 
 .iframe-iphone:before {
@@ -152,11 +152,11 @@ iframe {
 
 .iframe-iphone:after {
   content: "";
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   position: absolute;
   bottom: 20px;
-  left: 37%;
+  left: 44%;
   background-color: black;
   border: 4px solid lightgray;
   border-radius: 50%; }
