@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <main class="wrapper">
+
+      {% if site.compass.include_content %}
+        {% include nav.html %}
+      {% endif %}
+
+      {% if site.compass.include_content %}
+        {% include header.html %}
+      {% endif %}
+
+      {{ content }}
+
+      {% if site.compass.include_content %}
+        {% include footer.html %}
+      {% endif %}
+
+    </main>
+    <script type="text/javascript" src="assets/portfolio.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
