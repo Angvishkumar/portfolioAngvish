@@ -7,7 +7,7 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/profile_pic.png"
   # author will appear under the avatar (optional)
-  author: "Angvish"
+  author: "Angvish Keshri"
   designation: "Front-end Developer"
   # tagline will appear under the title (optional)
   tagline: "My name is <a href='http://angvishvish.github.io'>Angvish kumar</a>, from pune, I am enthuastic about frontend development,"
