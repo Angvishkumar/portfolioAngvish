@@ -2,11 +2,11 @@
 ---
 
 $text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$anchor-text-color: #2098d1;
+$background-color: #fff;
 
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', sans-serif;
   color: $text-color;
   background-color: $background-color;
 }
@@ -105,7 +105,7 @@ since it must be aligned with the content */
   color: $text-color;
 }
 
-.logo {
+.user-logo {
   width: 200px;
   height: 200px;
   display: inline-block;
