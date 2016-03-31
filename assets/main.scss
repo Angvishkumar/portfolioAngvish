@@ -193,7 +193,7 @@ iframe {
   width: 50px;
   position: absolute;
   bottom: 20px;
-  left: 44%;
+  left: calc(50% - 25px);
   background-color: black;
   border: 4px solid lightgray;
   border-radius: 50%;
@@ -216,8 +216,16 @@ iframe {
   width: 100px;
   position: absolute;
   bottom: 20px;
-  left: 42%;
+  left: calc(50% - 50px);
   background-color: #ddd;
   border: 4px solid antiquewhite;
   border-radius: 50%;
+}
+
+.navbar-brand {
+  padding: 7px;
+}
+
+.navbar-brand small {
+  color: black;
 }
