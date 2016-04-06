@@ -16,6 +16,12 @@
 }
 
 $fixed-height: 150px;
+
+#portfolio {
+    background-color: darken($theme-primary, 10%)
+}
+
+
 .portfolio-box {
     position: relative;
     display: block;
