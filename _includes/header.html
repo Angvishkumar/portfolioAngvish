@@ -1,13 +1,12 @@
-<header class="intro-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="site-heading text-center">
-          <h1>Front-end Developer</h1>
-          <hr class="small">
-          <span class="subheading">Achieving high-quality websites and exceptional user experience</span>
-        </div>
-      </div>
+<header id="page-header">
+  <div class="header-content">
+    <div class="header-content-inner">
+      <h1>{{ site.compass.designation }}</h1>
+      <hr>
+      <p>Achieving high-quality websites and exceptional user experience</p>
+      <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
     </div>
   </div>
 </header>
+
+{% include about.html %}
