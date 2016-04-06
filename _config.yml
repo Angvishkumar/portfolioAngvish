@@ -1,14 +1,19 @@
 # general configuration
 url: http://angvishvish.github.io
-baseurl: ''
+baseurl: ""
+
 
 # compass configuration
 compass:
+  twitter_username: "angvishvish"
+  email: "angvishvish@gmail.com"
+  github_username: "angvishvish"
+  all_image: "/images/all.jpg"  
   # an avatar or logo (optional)
-  logo: "/images/profile_pic.png"
+  #logo: "/images/profile_pic.png"
   # author will appear under the avatar (optional)
   author: "Angvish Keshri"
-  designation: "Front-end Developer"
+  designation: "Front-end Engineer"
   # tagline will appear under the title (optional)
   tagline: "My name is <a href='http://angvishvish.github.io'>Angvish kumar</a>, from pune, I am enthuastic about frontend development,"
   # if include_content is true, the contents of the content.html include will be

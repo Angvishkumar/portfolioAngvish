@@ -16,9 +16,6 @@ var defaults = {
   turningAngle: Math.PI
 };
 
-var chromata = new Chromata(imageElement, defaults);
-chromata.start();
-
 function myFunction() {
   var selected_proj = document.getElementById("selected-dropdown");
   selected_proj= selected_proj.options[selected_proj.selectedIndex].value;
